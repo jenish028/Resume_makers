@@ -188,8 +188,58 @@ public class Editpage extends AppCompatActivity {
                 }
                 else if(surname_edt.getText().length()==0)
                 {
-                    surname_edt.setError("Enter Surname");
+                    surname_edt.setError("Enter surname");
                 }
+                else if(idno_edt.getText().length()==0)
+                {
+                    idno_edt.setError("Enter Id Number");
+                }
+                else if(mobile_edt.getText().length()==0)
+                {
+                    mobile_edt.setError("Enter Mobile Number");
+                }
+
+                else if(brithdate_edt.getText().length()==0)
+                {
+                    brithdate_edt.setError("Enter Brithdate");
+                }
+                else if(email_btn.getText().length()==0)
+                {
+                    email_btn.setError("Enter Emails");
+                }
+                else if(addres_btn.getText().length()==0)
+                {
+                    addres_btn.setError("Enter Address");
+                }
+                else if(ten_edt.getText().length()==0)
+                {
+                    ten_edt.setError("Enter 10 Schoolname");
+                }
+                else if(twal_edt.getText().length()==0)
+                {
+                    twal_edt.setError("Enter 12 Schoolname");
+                }
+                else if(collage_edt.getText().length()==0)
+                {
+                    collage_edt.setError("Enter Collagename");
+                }
+                else if(dgree_edt.getText().length()==0)
+                {
+                    dgree_edt.setError("Enter Degree");
+                }
+                else if(insta_edt.getText().length()==0)
+                {
+                    insta_edt.setError("Enter Instagram Id");
+                }
+                else if(facebook_edt.getText().length()==0)
+                {
+                    facebook_edt.setError("Enter Facebook Id");
+                }
+                else if(about_edt.getText().length()==0)
+                {
+                    about_edt.setError("Enter About Me ");
+                }
+
                 else
                 {
                     Intent a=new Intent(Editpage.this,pageview.class);
@@ -208,6 +258,8 @@ public class Editpage extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent a=new Intent(Editpage.this,MainActivity.class);
+
+
                 startActivity(a);
             }
         });

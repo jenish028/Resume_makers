@@ -37,8 +37,7 @@ public class pageview extends AppCompatActivity {
 
                 Intent b= new Intent(pageview.this,Two.class);
 
-
-                Toast.makeText(pageview.this, "two", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(pageview.this, "two", Toast.LENGTH_SHORT).show();
                 startActivity(b);
             }
         });
@@ -46,10 +45,8 @@ public class pageview extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent b= new Intent(pageview.this,onepage.class);
-
-
-                Toast.makeText(pageview.this, "Three", Toast.LENGTH_SHORT).show();
+                Intent b= new Intent(pageview.this,Threepage.class);
+//                Toast.makeText(pageview.this, "Three", Toast.LENGTH_SHORT).show();
                 startActivity(b);
             }
         });
@@ -57,10 +54,10 @@ public class pageview extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent b= new Intent(pageview.this,onepage.class);
+                Intent b= new Intent(pageview.this,Fourpage.class);
 
 
-                Toast.makeText(pageview.this, "Four", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(pageview.this, "Four", Toast.LENGTH_SHORT).show();
                 startActivity(b);
             }
         });

@@ -711,6 +711,7 @@
                             android:layout_marginTop="15dp"
                             android:fontFamily="@font/poppins_light"
                             android:text="Instagram :-"
+                            android:textStyle="bold"
                             android:textColor="@color/black"
                             android:textSize="14dp"
 
@@ -721,6 +722,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_light"
                             android:text="Instagram :-"
+                            android:textStyle="bold"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/black"
                             android:textSize="14dp"
@@ -741,6 +743,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_light"
                             android:text="Facebook :-"
+                            android:textStyle="bold"
                             android:textColor="@color/black"
                             android:textSize="14dp"
 
@@ -752,6 +755,7 @@
                             android:fontFamily="@font/poppins_light"
                             android:layout_marginLeft="5dp"
                             android:text="Facebook"
+                            android:textStyle="bold"
                             android:textColor="@color/black"
                             android:textSize="14dp"
 

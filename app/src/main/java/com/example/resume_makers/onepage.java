@@ -27,6 +27,8 @@ import static com.example.resume_makers.Editpage.twal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -66,6 +68,15 @@ public class onepage extends AppCompatActivity {
         insta_txt.setText(insta);
         facebook_txt.setText(facebook);
         about_txt.setText(about);
+
+        mobile_txt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Intent.ACTION_DIAL);
+                i.setData(Uri.parse("tel:"+mobile));
+                startActivity(i);
+            }
+        });
 
 
     }
