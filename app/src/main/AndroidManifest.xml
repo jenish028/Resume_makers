@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Resume_makers">
         <activity
+            android:name=".Two"
+            android:exported="false" />
+        <activity
             android:name=".onepage"
             android:exported="false" />
         <activity

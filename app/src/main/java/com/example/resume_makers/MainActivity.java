@@ -12,8 +12,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private TextView createresume_txt;
-    private TextView viewresume_txt;
-    private ImageView creatresume_img;
+    private TextView viewresume_txt,download_txt,feedback_txt;
+    private ImageView creatresume_img,view_img,download_img,feedback_img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +44,40 @@ public class MainActivity extends AppCompatActivity {
         viewresume_txt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Plase enter the creat resume", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, " View Resume", Toast.LENGTH_SHORT).show();
             }
         });
+        view_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "View Resume ", Toast.LENGTH_SHORT).show();
+            }
+        });
+        download_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Download", Toast.LENGTH_SHORT).show();
+            }
+        });
+        download_txt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, " Download ", Toast.LENGTH_SHORT).show();
+            }
+        });
+        feedback_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, " Feedback ", Toast.LENGTH_SHORT).show();
+            }
+        });
+        feedback_txt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, " Feedback ", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
     }
 
@@ -55,5 +86,10 @@ public class MainActivity extends AppCompatActivity {
         createresume_txt=findViewById(R.id.createresume_txt);
         viewresume_txt=findViewById(R.id.viewresume_txt);
         creatresume_img=findViewById(R.id.creatresume_img);
+        view_img=findViewById(R.id.view_img);
+        download_img=findViewById(R.id.download_img);
+        download_txt=findViewById(R.id.download_txt);
+        feedback_img=findViewById(R.id.feedback_img);
+        feedback_txt=findViewById(R.id.feedback_txt);
     }
 }

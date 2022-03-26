@@ -12,7 +12,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="#E91E63"
+        android:background="#00008B"
+
         android:gravity="center"
         >
         <ImageView
@@ -32,7 +33,7 @@
                 android:text="Resume Builder"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:gravity="center"
                 />
         </LinearLayout>
@@ -81,7 +82,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_light"
                 android:text="Create Resume"
-                android:textColor="@color/black"
+                android:textColor="#00008B"
                 android:textSize="15dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -126,6 +127,7 @@
             android:gravity="center"
             >
             <ImageView
+                android:id="@+id/view_img"
                 android:layout_marginTop="10dp"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -148,7 +150,7 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="View Resume"
                 android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="#00008B"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
@@ -172,11 +174,12 @@
             android:gravity="center"
             >
             <ImageView
+                android:id="@+id/download_img"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:src="@drawable/notepad"
+                android:src="@drawable/download"
 
                 />
         </LinearLayout>
@@ -188,39 +191,16 @@
             >
 
             <TextView
+                android:id="@+id/download_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="Create Resume"
-                android:textSize="20dp"
-
+                android:text="Downloads"
+                android:textSize="15dp"
+                android:textColor="#00008B"
                 android:textStyle="bold" />
         </LinearLayout>
-
-        <!--       <Button-->
-        <!--           android:layout_width="155dp"-->
-        <!--           android:layout_height="150dp"-->
-        <!--           android:text="Create Resume"-->
-        <!--           android:textStyle="bold"-->
-        <!--           android:layout_marginTop="30dp"-->
-        <!--           android:layout_marginLeft="25dp"-->
-        <!--           android:textColor="@color/black"-->
-        <!--           android:textSize="10dp"-->
-        <!--           android:backgroundTint="#E6ECEB"-->
-        <!--           />-->
-        <!--       <Button-->
-        <!--           android:layout_width="155dp"-->
-        <!--           android:layout_height="150dp"-->
-        <!--           android:text="View Resume"-->
-        <!--           android:textStyle="bold"-->
-        <!--           android:layout_marginTop="30dp"-->
-        <!--           android:layout_marginLeft="30dp"-->
-        <!--           android:textColor="@color/black"-->
-        <!--           android:textSize="10dp"-->
-        <!--           android:backgroundTint="#E6ECEB"-->
-
-        <!--           />-->
 
     </LinearLayout>
     <LinearLayout
@@ -238,10 +218,11 @@
             android:gravity="center"
             >
             <ImageView
+                android:id="@+id/feedback_img"
                 android:layout_marginTop="10dp"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:src="@drawable/documents"
+                android:src="@drawable/feedback"
 
                 />
         </LinearLayout>
@@ -253,13 +234,14 @@
             >
 
             <TextView
+                android:id="@+id/feedback_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="View Resume"
-                android:textSize="20dp"
-
+                android:text="Feedback"
+                android:textSize="15dp"
+                android:textColor="#00008B"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

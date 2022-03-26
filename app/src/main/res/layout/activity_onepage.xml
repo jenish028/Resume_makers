@@ -4,137 +4,800 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".onepage"
     >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+<!--        all linear -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+<!--first linear pink -->
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="750dp"
+            android:background="#FF0266"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="750dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ironman" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/name_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="Name"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/surname_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="Surnname"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/black"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Personal Information:-"
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Id No.          :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/id_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="id"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Mobile No.  :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/mobile_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Mobile"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Gender       :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/gender_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="male"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Age           :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/age_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Age "
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Birth Date   :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/birth_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Birth Date"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Mariatal Status:-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/marrid_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Single"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Email      :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/email_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Emails"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Address  :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/addres_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Address"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/black"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="language Information:-"
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/english_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Eng"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/hindi_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="h"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/gujarati_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Guj"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/black"
+                            />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:text="About Me  Information :-"
+                        />
+                    <TextView
+                        android:id="@+id/about_txt"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text=" about my salf :-"
+                        />
+                                    </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+<!--Second layer white -->
     <LinearLayout
         android:layout_width="190dp"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#FF0266"
+        android:orientation="horizontal"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_marginTop="10dp"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ironman"
-                android:layout_gravity="center"
+            <TextView
+                    android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skills Information :-"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"
                 />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center"
+                android:orientation="vertical"
                 >
-<!--                <TextView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:text="Name           :"-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="20dp"-->
-<!--                    android:fontFamily="@font/poppins_light"-->
-<!--                    />-->
                 <TextView
-                    android:id="@+id/name1_txt"
+                    android:id="@+id/skills1_txt"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:text="Name"
+                    android:text="Skills1"
                     android:textColor="@color/black"
-                    android:textSize="15dp"
                     android:fontFamily="@font/poppins_light"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     />
                 <TextView
-                    android:id="@+id/surname1_txt"
+                    android:id="@+id/skills2_txt"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="Surnname"
+                    android:text="Skills2"
                     android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
                     android:fontFamily="@font/poppins_light"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:id="@+id/skills3_txt"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills3"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_light"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:id="@+id/skills4_txt"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills4"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_light"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/black"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="Education Information:-"
+                    />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="10th School Name :-"
+                        />
+                <TextView
+                    android:id="@+id/tenschool_txt"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="10 School "
+                    />
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="12th School Name :-"
+                    />
+                <TextView
+                    android:id="@+id/twalschool_txt"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="12 School "
+                    />
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="collage name :-"
+                    />
+                <TextView
+                    android:id="@+id/collage_txt"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="enter The name "
+                    />
+                <TextView
+                    android:id="@+id/degrr_txt"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="enter The Degree "
                     />
             </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/black"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    >
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Social Media Account:-"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Instagram :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                        <TextView
+                            android:id="@+id/insta_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Instagram :-"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Facebook :-"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+                        <TextView
+                            android:id="@+id/facebook_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_light"
+                            android:layout_marginLeft="5dp"
+                            android:text="Facebook"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+<!--        last     Line view   -->
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="5dp"
                 >
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
                     android:background="@color/black"
-
+                    android:layout_gravity="center"
                     />
 
-
             </LinearLayout>
+
+            <!--             Button  Download-->
             <LinearLayout
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="5dp"
+                android:gravity="center"
                 >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Personal Information:-"
-                    android:textColorHint="@color/black"
-                    android:textSize="13dp"
-                    android:textStyle="bold"
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#00008B"
+                    android:text="Download"
                     />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Id No.  :-"
-                        android:textSize="14dp"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/poppins_light"
 
-                        />
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="id"
-                        android:textSize="14dp"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/poppins_light"
-
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Id No.  :-"
-                        android:textSize="14dp"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/poppins_light"
-
-                        />
-                </LinearLayout>
             </LinearLayout>
-
         </LinearLayout>
 
-
-    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
