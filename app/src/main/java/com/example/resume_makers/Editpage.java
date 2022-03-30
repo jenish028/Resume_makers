@@ -240,7 +240,7 @@ public class Editpage extends AppCompatActivity {
                     about_edt.setError("Enter About Me ");
                 }
 
-                else
+//                else
                 {
                     Intent a=new Intent(Editpage.this,pageview.class);
 

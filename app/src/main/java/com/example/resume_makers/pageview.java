@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class pageview extends AppCompatActivity {
 
-    private ImageButton one_btn,two_btn,three_btn,four_btn;
+    private ImageButton one_btn,two_btn,three_btn,four_btn,five_btn;
     private ImageView arrow1_img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +61,17 @@ public class pageview extends AppCompatActivity {
                 startActivity(b);
             }
         });
+        five_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent b= new Intent(pageview.this,Fivepage.class);
+
+
+//                Toast.makeText(pageview.this, "Four", Toast.LENGTH_SHORT).show();
+                startActivity(b);
+            }
+        });
 
         arrow1_img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +90,7 @@ public class pageview extends AppCompatActivity {
         two_btn=findViewById(R.id.two_btn);
         three_btn=findViewById(R.id.three_btn);
         four_btn=findViewById(R.id.four_btn);
+        five_btn=findViewById(R.id.five_btn);
         arrow1_img=findViewById(R.id.arrow1_img);
 
     }

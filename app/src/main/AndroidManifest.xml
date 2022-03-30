@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.resume_makers">
-<uses-permission android:name="android.permission.CALL_PHONE">
 
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 
-</uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Resume_makers">
+        <activity
+            android:name=".Fivepage"
+            android:exported="false" />
         <activity
             android:name=".Fourpage"
             android:exported="false" />

@@ -48,7 +48,6 @@
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
@@ -513,11 +512,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:layout_weight="1"
+
                 >
                 <TextView
                     android:id="@+id/skills1_txt"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Skills1"
@@ -530,6 +532,7 @@
                     android:id="@+id/skills2_txt"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
+                      android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Skills2"
@@ -542,6 +545,7 @@
                     android:id="@+id/skills3_txt"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Skills3"
@@ -557,6 +561,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Skills4"
+                    android:layout_weight="1"
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppins_light"
                     android:textStyle="bold"
