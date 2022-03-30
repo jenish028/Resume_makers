@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fivepage"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<LinearLayout
+    android:layout_width="263dp"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Varun "
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#01366c"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mishra "
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#01366c"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Emails "
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="gender"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="age"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Id "
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+          android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mobile No."
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Birth Date"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mariatal"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ironman"
+
+                />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="passionate software engineer with 5+ year of experience and a master's degree"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education Information"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#01366c"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginTop="3dp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+                    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical"
+                        >
+
+                                <TextView
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10th School Name:-"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Software,New delhi"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+<!--                                    <TextView-->
+<!--                                        android:layout_marginLeft="5dp"-->
+<!--                                        android:layout_marginTop="5dp"-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:text="-"-->
+<!--                                        android:textColor="@color/black"-->
+<!--                                        android:textSize="15dp"-->
+<!--                                        />-->
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12th School Name :-"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+<!--                                    <TextView-->
+<!--                                        android:layout_marginLeft="5dp"-->
+<!--                                        android:layout_marginTop="5dp"-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:text="-"-->
+<!--                                        android:textColor="@color/black"-->
+<!--                                        android:textSize="15dp"-->
+<!--                                        />-->
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Collage Name:-"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Collage name:- "
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Devlopment "
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                />
+
+                        </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skills "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#01366c"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            >
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Skill1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Skills2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Skills3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Skills4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language Information "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#01366c"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            >
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lan1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lan1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lan1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Details "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#01366c"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            >
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram Account:-"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instagram Account"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook Account:-"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instagram Account"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
