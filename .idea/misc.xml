@@ -4,15 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable/flase_logo.xml" value="0.1" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable/ic_round_menu_24.xml" value="0.1" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable/rectangle.xml" value="0.1" />
-        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_editpage.xml" value="0.16666666666666666" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_editpage.xml" value="0.14666666666666667" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_fivepage.xml" value="0.16666666666666666" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_flash_screen.xml" value="0.13974358974358975" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_fourpage.xml" value="0.15128205128205127" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_main2.xml" value="0.15128205128205127" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_onepage.xml" value="0.20593368237347295" />
-        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_pageview.xml" value="0.1" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_pageview.xml" value="0.13333333333333333" />
+        <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_shape.xml" value="0.15128205128205127" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_threepage.xml" value="0.15128205128205127" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_two.xml" value="0.15128205128205127" />
         <entry key="..\:/android devloper/Android Xml/Resume_makers/app/src/main/res/layout/activity_twopage.xml" value="0.15128205128205127" />

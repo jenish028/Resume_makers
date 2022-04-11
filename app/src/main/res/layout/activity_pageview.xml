@@ -73,7 +73,6 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#5C5B5B"
                     android:padding="20dp">
 
                     <ImageButton
@@ -81,7 +80,7 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
+                        android:scaleType="fitXY"
                         android:src="@drawable/onepage" />
 
                 </LinearLayout>
@@ -97,7 +96,7 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
+                        android:scaleType="fitXY"
                         android:src="@drawable/twopage" />
                 </LinearLayout>
             </LinearLayout>
@@ -118,7 +117,7 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
+                        android:scaleType="fitXY"
                         android:src="@drawable/threepage" />
                 </LinearLayout>
 
@@ -126,7 +125,6 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#5C5B5B"
                     android:padding="20dp">
 
                     <ImageButton
@@ -134,8 +132,8 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/fourpage" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fouepage" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -149,8 +147,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:background="#5C5B5B"
-
                     >
 
                     <ImageButton
@@ -158,8 +154,8 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/threepage" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fivepage" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -174,8 +170,8 @@
                         android:layout_width="155dp"
                         android:layout_height="300dp"
                         android:background="#5C5858"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/fourpage" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fivepage" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

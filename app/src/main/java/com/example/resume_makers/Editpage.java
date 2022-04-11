@@ -240,7 +240,7 @@ public class Editpage extends AppCompatActivity {
                     about_edt.setError("Enter About Me ");
                 }
 
-//                else
+                else
                 {
                     Intent a=new Intent(Editpage.this,pageview.class);
 
@@ -267,12 +267,12 @@ public class Editpage extends AppCompatActivity {
         reset_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            name_edt.setText("");
-            surname_edt.setText("");
-            idno_edt.setText("");
-            mobile_edt.setText("");
-            Age1_txt.setText("");
-            brithdate_edt.setText("");
+                name_edt.setText("");
+                surname_edt.setText("");
+                idno_edt.setText("");
+                mobile_edt.setText("");
+                Age1_txt.setText("");
+                brithdate_edt.setText("");
                 email_btn.setText("");
                 addres_btn.setText("");
                 ten_edt.setText("");
@@ -282,7 +282,18 @@ public class Editpage extends AppCompatActivity {
                 insta_edt.setText("");
                 facebook_edt.setText("");
                 about_edt.setText("");
-
+                male_rg_btn.setChecked(false);
+                female_rg_btn.setChecked(false);
+                single_rg1_btn.setChecked(false);
+                married_rg1_btn.setChecked(false);
+                age_seek.setProgress(0);
+                android_chk.setChecked(false);
+                communication_chk.setChecked(false);
+                leadership_chk.setChecked(false);
+                problem_chk.setChecked(false);
+                english_chk.setChecked(false);
+                hindi_chk.setChecked(false);
+                gujarati_chk.setChecked(false);
             }
         });
     }

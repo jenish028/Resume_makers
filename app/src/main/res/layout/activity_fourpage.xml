@@ -48,7 +48,7 @@
                 <LinearLayout
                     android:layout_width="190dp"
                     android:layout_height="750dp"
-                    android:background="#ec4d37"
+                    android:background="#43a047"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -62,7 +62,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/ironman" />
+                            android:src="@drawable/tom" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
                                 android:layout_marginLeft="5dp"
                                 android:fontFamily="@font/poppins_light"
                                 android:text="Name"
-                                android:textColor="#00008B"
+                                android:textColor="#000000"
                                 android:textSize="15dp"
                                 android:textStyle="bold" />
 
@@ -89,7 +89,7 @@
                                 android:layout_marginLeft="10dp"
                                 android:fontFamily="@font/poppins_light"
                                 android:text="Surnname"
-                                android:textColor="#00008B"
+                                android:textColor="#000000"
                                 android:textSize="15dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -121,7 +121,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dp"
                                 android:text="Personal Information:-"
-                                android:textColor="#00008B"
+                                android:textColor="#000000"
                                 android:textSize="13dp"
                                 android:textStyle="bold" />
 
@@ -384,7 +384,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="language Information:-"
-                                android:textColor="#00008B"
+                                android:textColor="#000000"
                                 android:textSize="13dp"
                                 android:textStyle="bold" />
 
@@ -469,7 +469,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="#00008B"
+                                android:textColor="#000000"
                                 android:textStyle="bold"
                                 android:textSize="13dp"
                                 android:text="About Me  Information :-"
@@ -509,7 +509,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Skills Information :-"
-                                android:textColor="#00008B"
+                                android:textColor="#000"
                                 android:textStyle="bold"
                                 android:textSize="15dp"
                                 />
@@ -596,7 +596,7 @@
                                     android:layout_marginTop="15dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:textColor="#00008B"
+                                    android:textColor="#000000"
                                     android:textStyle="bold"
                                     android:textSize="15dp"
                                     android:text="Education Information:-"
@@ -706,7 +706,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Social Media Account:-"
-                                    android:textColor="#00008B"
+                                    android:textColor="#000000"
                                     android:textSize="15dp"
                                     android:textStyle="bold" />
 
