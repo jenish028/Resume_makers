@@ -18,17 +18,18 @@ import android.widget.Toast;
 
 public class Editpage extends AppCompatActivity {
 
-    private Button submit_btn,reset_btn;
-    private EditText name_edt,surname_edt,idno_edt,mobile_edt,brithdate_edt,email_btn,addres_btn,ten_edt,twal_edt;
-    private  EditText about_edt,collage_edt,dgree_edt,insta_edt,facebook_edt;
+    private Button submit_btn, reset_btn;
+    private EditText name_edt, surname_edt, idno_edt, mobile_edt, brithdate_edt, email_btn, addres_btn, ten_edt, twal_edt;
+    private EditText about_edt, collage_edt, dgree_edt, insta_edt, facebook_edt;
     private SeekBar age_seek;
     private TextView Age1_txt;
     private ImageView arrow_img;
-    private CheckBox android_chk,communication_chk,problem_chk,leadership_chk,english_chk,hindi_chk,gujarati_chk;
-    private RadioGroup rg_group,rg1_group;
-    private RadioButton male_rg_btn,female_rg_btn,single_rg1_btn,married_rg1_btn;
-    public static String name1,surname,idno,mobile,gender,brithdate,age,mariatal,email,address,android,communication,leadership;
-    public static String problem,english,hindi,gujarati,ten,twal,collage,dgree,insta,facebook,about;
+    private CheckBox android_chk, communication_chk, problem_chk, leadership_chk, english_chk, hindi_chk, gujarati_chk;
+    private RadioGroup rg_group, rg1_group;
+    private RadioButton male_rg_btn, female_rg_btn, single_rg1_btn, married_rg1_btn;
+    public static String name1, surname, idno, mobile, gender, brithdate, age, mariatal, email, address, android, communication, leadership;
+    public static String problem, english, hindi, gujarati, ten, twal, collage, dgree, insta, facebook, about;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,91 +39,70 @@ public class Editpage extends AppCompatActivity {
         android_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    android="Android Development ";
-                }
-                else
-                {
-                    android="";
+                if (b == true) {
+                    android = "Android Development ";
+                } else {
+                    android = "";
                 }
             }
         });
         communication_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    communication="Communication";
-                }
-                else
-                {
-                    communication="";
+                if (b == true) {
+                    communication = "Communication";
+                } else {
+                    communication = "";
                 }
             }
         });
         leadership_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    leadership="Leadership";
-                }
-                else
-                {
-                    leadership="";
+                if (b == true) {
+                    leadership = "Leadership";
+                } else {
+                    leadership = "";
                 }
             }
         });
         problem_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    problem="Problem solving  ";
-                }
-                else
-                {
-                    problem="";
+                if (b == true) {
+                    problem = "Problem solving  ";
+                } else {
+                    problem = "";
                 }
             }
         });
         english_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    english="English";
-                }
-                else
-                {
-                    english="";
+                if (b == true) {
+                    english = "English";
+                } else {
+                    english = "";
                 }
             }
         });
         hindi_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                   hindi="Hindi";
-                }
-                else
-                {
-                    hindi="";
+                if (b == true) {
+                    hindi = "Hindi";
+                } else {
+                    hindi = "";
                 }
             }
         });
         gujarati_chk.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b==true)
-                {
-                    gujarati="Gujarati  ";
-                }
-                else
-                {
-                    gujarati="";
+                if (b == true) {
+                    gujarati = "Gujarati  ";
+                } else {
+                    gujarati = "";
                 }
             }
         });
@@ -130,7 +110,7 @@ public class Editpage extends AppCompatActivity {
         age_seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                Age1_txt.setText(""+i);
+                Age1_txt.setText("" + i);
             }
 
             @Override
@@ -148,107 +128,68 @@ public class Editpage extends AppCompatActivity {
         submit_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                 name1=name_edt.getText().toString();
-                 surname=surname_edt.getText().toString();
-                 idno=idno_edt.getText().toString();
-                 mobile=mobile_edt.getText().toString();
-                 age=Age1_txt.getText().toString();
-                 brithdate=brithdate_edt.getText().toString();
-                 email=email_btn.getText().toString();
-                 address=addres_btn.getText().toString();
-                 ten=ten_edt.getText().toString();
-                 twal=twal_edt.getText().toString();
-                 collage=collage_edt.getText().toString();
-                 dgree=dgree_edt.getText().toString();
-                 insta=insta_edt.getText().toString();
-                 facebook=facebook_edt.getText().toString();
-                 about=about_edt.getText().toString();
+                name1 = name_edt.getText().toString();
+                surname = surname_edt.getText().toString();
+                idno = idno_edt.getText().toString();
+                mobile = mobile_edt.getText().toString();
+                age = Age1_txt.getText().toString();
+                brithdate = brithdate_edt.getText().toString();
+                email = email_btn.getText().toString();
+                address = addres_btn.getText().toString();
+                ten = ten_edt.getText().toString();
+                twal = twal_edt.getText().toString();
+                collage = collage_edt.getText().toString();
+                dgree = dgree_edt.getText().toString();
+                insta = insta_edt.getText().toString();
+                facebook = facebook_edt.getText().toString();
+                about = about_edt.getText().toString();
 
-                if(rg_group.getCheckedRadioButtonId()==R.id.male_rg_btn)
-                {
-                    gender="Male";
-                }
-                else if(rg_group.getCheckedRadioButtonId()==R.id.female_rg_btn)
-                {
-                    gender="Female";
+                if (rg_group.getCheckedRadioButtonId() == R.id.male_rg_btn) {
+                    gender = "Male";
+                } else if (rg_group.getCheckedRadioButtonId() == R.id.female_rg_btn) {
+                    gender = "Female";
                 }
 
-                if(rg1_group.getCheckedRadioButtonId()==R.id.single_rg1_btn)
-                {
-                    mariatal="Single";
-                }
-                else if(rg1_group.getCheckedRadioButtonId()==R.id.married_rg1_btn)
-                {
-                    mariatal="married";
+                if (rg1_group.getCheckedRadioButtonId() == R.id.single_rg1_btn) {
+                    mariatal = "Single";
+                } else if (rg1_group.getCheckedRadioButtonId() == R.id.married_rg1_btn) {
+                    mariatal = "married";
                 }
 
-                if(name_edt.getText().length()==0)
-                {
+                if (name_edt.getText().length() == 0) {
                     name_edt.setError("Enter Name");
-                }
-                else if(surname_edt.getText().length()==0)
-                {
+                } else if (surname_edt.getText().length() == 0) {
                     surname_edt.setError("Enter surname");
-                }
-                else if(idno_edt.getText().length()==0)
-                {
+                } else if (idno_edt.getText().length() == 0) {
                     idno_edt.setError("Enter Id Number");
-                }
-                else if(mobile_edt.getText().length()==0)
-                {
+                } else if (mobile_edt.getText().length() == 0) {
                     mobile_edt.setError("Enter Mobile Number");
-                }
-
-                else if(brithdate_edt.getText().length()==0)
-                {
+                } else if (brithdate_edt.getText().length() == 0) {
                     brithdate_edt.setError("Enter Brithdate");
-                }
-                else if(email_btn.getText().length()==0)
-                {
+                } else if (email_btn.getText().length() == 0) {
                     email_btn.setError("Enter Emails");
-                }
-                else if(addres_btn.getText().length()==0)
-                {
+                } else if (addres_btn.getText().length() == 0) {
                     addres_btn.setError("Enter Address");
-                }
-                else if(ten_edt.getText().length()==0)
-                {
+                } else if (ten_edt.getText().length() == 0) {
                     ten_edt.setError("Enter 10 Schoolname");
-                }
-                else if(twal_edt.getText().length()==0)
-                {
+                } else if (twal_edt.getText().length() == 0) {
                     twal_edt.setError("Enter 12 Schoolname");
-                }
-                else if(collage_edt.getText().length()==0)
-                {
+                } else if (collage_edt.getText().length() == 0) {
                     collage_edt.setError("Enter Collagename");
-                }
-                else if(dgree_edt.getText().length()==0)
-                {
+                } else if (dgree_edt.getText().length() == 0) {
                     dgree_edt.setError("Enter Degree");
-                }
-                else if(insta_edt.getText().length()==0)
-                {
+                } else if (insta_edt.getText().length() == 0) {
                     insta_edt.setError("Enter Instagram Id");
-                }
-                else if(facebook_edt.getText().length()==0)
-                {
+                } else if (facebook_edt.getText().length() == 0) {
                     facebook_edt.setError("Enter Facebook Id");
-                }
-                else if(about_edt.getText().length()==0)
-                {
+                } else if (about_edt.getText().length() == 0) {
                     about_edt.setError("Enter About Me ");
-                }
-
-                else
-                {
-                    Intent a=new Intent(Editpage.this,pageview.class);
+                } else {
+                    Intent a = new Intent(Editpage.this, pageview.class);
 
                     startActivity(a);
 
                 }
-
-
 
 
             }
@@ -257,8 +198,8 @@ public class Editpage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent a=new Intent(Editpage.this,MainActivity.class);
-
+                Intent a = new Intent(Editpage.this, MainActivity.class);
+                finish();
 
                 startActivity(a);
             }
@@ -298,40 +239,39 @@ public class Editpage extends AppCompatActivity {
         });
     }
 
-    void   blinding()
-    {
-        submit_btn=findViewById(R.id.submit_btn);
-        name_edt=findViewById(R.id.name_edt);
-        surname_edt=findViewById(R.id.surname_edt);
-        idno_edt=findViewById(R.id.idno_edt);
-        mobile_edt=findViewById(R.id.mobile_edt);
-        rg_group=findViewById(R.id.rg_group);
-        male_rg_btn=findViewById(R.id.male_rg_btn);
-        female_rg_btn=findViewById(R.id.female_rg_btn);
-        age_seek=findViewById(R.id.age_seek);
-        Age1_txt=findViewById(R.id.Age1_txt);
-        brithdate_edt=findViewById(R.id.brithdate_edt);
-        rg1_group=findViewById(R.id.rg1_group);
-        single_rg1_btn=findViewById(R.id.single_rg1_btn);
-        married_rg1_btn=findViewById(R.id.married_rg1_btn);
-        email_btn=findViewById(R.id.email_btn);
-        addres_btn=findViewById(R.id.addres_btn);
-        android_chk=findViewById(R.id.android_chk);
-        communication_chk=findViewById(R.id.communication_chk);
-        leadership_chk=findViewById(R.id.leadership_chk);
-        problem_chk=findViewById(R.id.problem_chk);
-        english_chk=findViewById(R.id.english_chk);
-        hindi_chk=findViewById(R.id.hindi_chk);
-        gujarati_chk=findViewById(R.id.gujarati_chk);
-        ten_edt=findViewById(R.id.ten_edt);
-        twal_edt=findViewById(R.id.twal_edt);
-        collage_edt=findViewById(R.id.collage_edt);
-        dgree_edt=findViewById(R.id.dgree_edt);
-        insta_edt=findViewById(R.id.insta_edt);
-        facebook_edt=findViewById(R.id.facebook_edt);
-        about_edt=findViewById(R.id.about_edt);
-        reset_btn=findViewById(R.id.reset_btn);
-        arrow_img=findViewById(R.id.arrow_img);
+    void blinding() {
+        submit_btn = findViewById(R.id.submit_btn);
+        name_edt = findViewById(R.id.name_edt);
+        surname_edt = findViewById(R.id.surname_edt);
+        idno_edt = findViewById(R.id.idno_edt);
+        mobile_edt = findViewById(R.id.mobile_edt);
+        rg_group = findViewById(R.id.rg_group);
+        male_rg_btn = findViewById(R.id.male_rg_btn);
+        female_rg_btn = findViewById(R.id.female_rg_btn);
+        age_seek = findViewById(R.id.age_seek);
+        Age1_txt = findViewById(R.id.Age1_txt);
+        brithdate_edt = findViewById(R.id.brithdate_edt);
+        rg1_group = findViewById(R.id.rg1_group);
+        single_rg1_btn = findViewById(R.id.single_rg1_btn);
+        married_rg1_btn = findViewById(R.id.married_rg1_btn);
+        email_btn = findViewById(R.id.email_btn);
+        addres_btn = findViewById(R.id.addres_btn);
+        android_chk = findViewById(R.id.android_chk);
+        communication_chk = findViewById(R.id.communication_chk);
+        leadership_chk = findViewById(R.id.leadership_chk);
+        problem_chk = findViewById(R.id.problem_chk);
+        english_chk = findViewById(R.id.english_chk);
+        hindi_chk = findViewById(R.id.hindi_chk);
+        gujarati_chk = findViewById(R.id.gujarati_chk);
+        ten_edt = findViewById(R.id.ten_edt);
+        twal_edt = findViewById(R.id.twal_edt);
+        collage_edt = findViewById(R.id.collage_edt);
+        dgree_edt = findViewById(R.id.dgree_edt);
+        insta_edt = findViewById(R.id.insta_edt);
+        facebook_edt = findViewById(R.id.facebook_edt);
+        about_edt = findViewById(R.id.about_edt);
+        reset_btn = findViewById(R.id.reset_btn);
+        arrow_img = findViewById(R.id.arrow_img);
 
 
     }
